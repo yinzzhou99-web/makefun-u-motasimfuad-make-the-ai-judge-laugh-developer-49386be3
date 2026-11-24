@@ -7,7 +7,7 @@ production to /output/entry.txt. Clears nothing; the grader owns /output.
 
 from pathlib import Path
 
-LINE = "It worked on my machine, because my machine has the undocumented env var, the forgotten hotfix, and \u2014 crucially \u2014 no users."
+LINE = "The code passed every test, because the tests were written by the same optimistic developer who wrote the bug."
 
 out = Path("/output")
 out.mkdir(parents=True, exist_ok=True)
